@@ -1,9 +1,112 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    font-family: "Proxima Nova", sans-serif;
+}
 
 .container{
     display: flex;
     flex-direction: column;
     background-image: url(../img/Backgraund.png);
+    padding-bottom: 115px;
+    padding-top: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.container__text{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 90px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 318px;
+    margin-right: 318px;
+
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    color: #1a1820;
+
+}
+.menu--choose{
+    width: 400px;
+    height: 660px;
+    box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
+    background-color: #ffffff;
+}
+
+.menu__title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 33px;
+    
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.big{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.menu__text{
+    margin: 0;
+    height: 135px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button{
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 1px solid #ffba15;
+    background-color: #ffb504;
+    margin:auto;
+}
+.menu__button{
+    width: 209px;
+    height: 65px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+
+}
+.menu--button{
+    width: 146px;
+    height: 52px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercas
+}
+.img{
+    margin-bottom: 49px;
+}
+.choose__title{
+    color:white
 }
