@@ -35,10 +35,11 @@ body{
 }
 .menu{
     display: flex;
-    justify-content: space-between;
-    margin-left: 318px;
-    margin-right: 318px;
-
+    justify-content: space-around;
+}
+section{
+    margin: auto;
+    width: 1280px;
 }
 .choose{
     display: flex;
